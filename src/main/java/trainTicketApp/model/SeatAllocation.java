@@ -1,6 +1,5 @@
 package trainTicketApp.model;
 
-
 import lombok.Data;
 
 @Data
@@ -18,27 +17,4 @@ public class SeatAllocation {
         this.seatNumber = seatNumber;
     }
 
-    public long getId() {
-        return id;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public String getSection() {
-        return section;
-    }
-
-    public void setSection(String section) {
-        this.section = section;
-    }
-
-    public int getSeatNumber() {
-        return seatNumber;
-    }
-
-    public void setSeatNumber(int seatNumber) {
-        this.seatNumber = seatNumber;
-    }
 }

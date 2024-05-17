@@ -12,5 +12,4 @@ public class Receipt {
         this.seatAllocation = seatAllocation;
     }
 
-    // Constructors, getters, and setters
 }

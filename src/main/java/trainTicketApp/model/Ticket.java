@@ -19,24 +19,4 @@ public class Ticket {
         this.toLocation = toLocation;
         this.pricePaid = pricePaid;
     }
-
-    public long getId() {
-        return id;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public String getFromLocation() {
-        return fromLocation;
-    }
-
-    public String getToLocation() {
-        return toLocation;
-    }
-
-    public double getPricePaid() {
-        return pricePaid;
-    }
 }

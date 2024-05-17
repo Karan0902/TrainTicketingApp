@@ -6,6 +6,4 @@ import lombok.Data;
 public class SeatModificationRequest {
     private String section;
     private int seatNumber;
-
-    // Getters and setters
 }

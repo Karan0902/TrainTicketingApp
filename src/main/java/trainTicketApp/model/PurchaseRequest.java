@@ -6,7 +6,6 @@ import lombok.Data;
 public class PurchaseRequest {
     private String firstName;
     private String lastName;
-
     private String email;
     private String fromLocation;
     private String toLocation;

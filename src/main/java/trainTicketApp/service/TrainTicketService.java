@@ -12,9 +12,9 @@ import java.util.List;
 public class TrainTicketService {
 
 
-    private List<User> users = new ArrayList<>();
-    private List<Ticket> tickets = new ArrayList<>();
-    private List<SeatAllocation> seatAllocations = new ArrayList<>();
+    private List<User> users;
+    private List<Ticket> tickets;
+    private List<SeatAllocation> seatAllocations;
 
     public TrainTicketService() {
         this.users = new ArrayList<>();
